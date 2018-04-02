@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <style>
+    	* {
+    		font-family: -apple-system, "Helvetica Neue", sans-serif;
+    	}
+    	p {
+    		position: absolute;
+    		left: 25px;
+    		top: 120px;
+    		font-size: 15px;
+    		color: grey;
+    		text-align: center;
+    	}
+    	#time_button {
+		    position: absolute;
+    		left: 15px;
+    		top: 180px;
+    		background-color: #fff;
+    		border-width: 1px;
+    		border-radius: 4px;
+    		padding: 5px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+    		font-size: 14px;
+    		width: 60px;
+    		text-align: center;
+    	}
+    	#time_button:focus {
+    		font-weight: 600;
+    	}
+    	#score_button {
+		    position: absolute;
+    		left: 15px;
+    		top: 220px;
+    		background-color: #fff;
+    		border-width: 1px;
+    		border-radius: 4px;
+    		padding: 5px;
+    		text-align: center;
+    		text-decoration: none;
+    		display: inline-block;
+    		font-size: 14px;
+    		width: 60px;
+    		text-align: center;
+    	}
+    	#score_button:focus {
+    		font-weight: 600;
+    	}
+    </style>
+  </head>
+  <body>
+  	<div class="heatmap"></div>
+    <p>x-axis<br/>data</p>
+	<button id="time_button">Time</button>
+	<button id="score_button">Review<br/>Score</button>
+  	<script src="app.js"></script>
+  </body>
+</html>
+
